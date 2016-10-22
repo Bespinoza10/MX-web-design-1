@@ -17,3 +17,14 @@
     </ul>
   </div>
 </div>
+
+<!-- JS will be here in the meantime untill all merged together and then moved to its own file -->
+<script>
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $('nav').addClass('shrink-nav');
+    } else {
+      $('nav').removeClass('shrink-nav');
+    }
+  });
+</script>
