@@ -4409,3 +4409,20 @@ table.hover tbody tr:nth-of-type(even):hover {
 
 .long-delay {
   animation-delay: 700ms !important; }
+
+div.top-bar {
+  height: 80px !important;
+  background-color: #fefefe;
+  border-bottom: 1px solid #e6e6e6; }
+  div.top-bar ul {
+    background: none; }
+  div.top-bar .top-bar-left, div.top-bar .top-bar-right {
+    padding-top: 2vh; }
+
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none; } }
+
+@media screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none; } }

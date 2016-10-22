@@ -1,5 +1,30 @@
 //nav
+div.top-bar{
+  height: 80px !important;
+  background-color: $white;
+  border-bottom: 1px solid $light-gray;
+  ul{
+    background: none;
+  }
+  .top-bar-left, .top-bar-right{
+    padding-top: 2vh;
+  }
 
+}
+
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
 //services
 
 //footer
