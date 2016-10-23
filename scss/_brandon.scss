@@ -4,7 +4,7 @@
     -webkit-transition: $transition;
     transition:         $transition;
 }
-
+$black-gray: #2d2d2d;
 .center-column{
   margin: 0 auto !important;
   float: none !important;
@@ -64,7 +64,7 @@ div.top-bar{
 //footer
 
 .footer{
-  background-color: $dark-gray;
+  background-color: $black-gray;
   height: 100px;
   .footer-links ul li a{
     letter-spacing: 1px;
