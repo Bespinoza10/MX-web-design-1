@@ -4436,19 +4436,11 @@ div.top-bar {
   div.top-bar .top-bar-left, div.top-bar .top-bar-right {
     padding-top: 2vh; }
 
-@media screen and (max-width: 39.9375em) {
-  .no-js .top-bar {
-    display: none; } }
-
-@media screen and (min-width: 40em) {
-  .no-js .title-bar {
-    display: none; } }
-
 .top-bar.shrink-nav {
   height: 60px !important; }
 
 .footer {
-  background-color: #2d2d2d;
+  background-color: #222222;
   height: 100px; }
   .footer .footer-links ul li a {
     letter-spacing: 1px;
