@@ -4436,11 +4436,19 @@ div.top-bar {
   div.top-bar .top-bar-left, div.top-bar .top-bar-right {
     padding-top: 2vh; }
 
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none; } }
+
+@media screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none; } }
+
 .top-bar.shrink-nav {
   height: 60px !important; }
 
 .footer {
-  background-color: #222222;
+  background-color: #2d2d2d;
   height: 100px; }
   .footer .footer-links ul li a {
     letter-spacing: 1px;
@@ -4460,3 +4468,39 @@ div.top-bar {
     color: #fefefe;
     letter-spacing: 2px;
     font-weight: 200; }
+
+.fullslide {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  background-size: cover; }
+
+.slogan {
+  background-color: #8224E3;
+  width: 100%;
+  height: 35vh; }
+  .slogan p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22pt;
+    color: #fefefe;
+    position: relative;
+    top: 50%;
+    -webkit-transform: perspective(1px) translateY(-50%);
+    -ms-transform: perspective(1px) translateY(-50%);
+    transform: perspective(1px) translateY(-50%); }
+
+.contact {
+  height: 66vh;
+  background-color: #222222;
+  width: 100%;
+  color: #fefefe;
+  padding-top: 10vh; }
+  .contact h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26pt; }
+  .contact p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18pt; }
