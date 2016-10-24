@@ -1,1 +1,31 @@
-LOGO Should go Here
+<div data-sticky-container>
+  <div class="title-bar shrink-nav" data-sticky data-responsive-toggle="example-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+
+  <div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">AquiEstoy.MX</li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="#">Item One</a></li>
+        <li><a href="#">Item Two</a></li>
+        <li><a href="#">Item Three</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- JS will be here in the meantime untill all merged together and then moved to its own file -->
+<script>
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $('nav').addClass('shrink-nav');
+    } else {
+      $('nav').removeClass('shrink-nav');
+    }
+  });
+</script>
