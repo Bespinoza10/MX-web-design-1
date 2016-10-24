@@ -4099,15 +4099,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/_brandon.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/_brandon.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4125,6 +4116,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/coming-soon-img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5434,
+		"inputAbbreviatedPath": "\/img\/coming-soon-img.jpg",
+		"outputAbbreviatedPath": "\/img\/coming-soon-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/JW.ORG.jpg": {
 		"fileType": 16384,
@@ -4273,6 +4275,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/services.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/slider1.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4312,7 +4323,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Tonci N. Mihaic C.",
+"lastSavedByUser": "Alejandra Espinoza",
 "manualImportLinks": {
 	},
 "projectAttributes": {
